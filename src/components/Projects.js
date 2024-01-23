@@ -69,13 +69,13 @@ const Projects = () => {
             <strong>Skills:</strong> {project.skills}
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
+        <Card.Footer style={{ backgroundColor: "#010" }}>
           <Button
             variant="sec"
             href={project.repoLink}
             target="_blank"
             className=" btn-custom"
-            style={{ width: "30vh", mb: 2 }}
+            style={{ width: "30vh", mb: 2, color: "white" }}
           >
             View Repo
           </Button>
@@ -86,6 +86,7 @@ const Projects = () => {
               className="btn-custom"
               style={{
                 width: "30vh",
+                color: "white",
               }}
             >
               Live Demo
@@ -96,7 +97,7 @@ const Projects = () => {
               variant="sec"
               href={project.architectureLink}
               className="btn-custom"
-              style={{ width: "30vh" }}
+              style={{ width: "30vh", color: "white" }}
             >
               Document
             </Button>
