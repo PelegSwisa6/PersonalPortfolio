@@ -13,7 +13,7 @@ const ResponsiveCard = styled(Card)`
   }
 
   @media (max-width: 767px) {
-    height: 50vh;
+    height: 55vh;
     width: 35vh;
   }
 `;

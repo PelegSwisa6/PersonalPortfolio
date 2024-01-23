@@ -94,17 +94,16 @@ const Skills = () => {
   const sliderSettings = {
     arrows: false,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: isSmallScreen ? 1 : 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
   };
 
   const sliderSettingsReverse = {
     ...sliderSettings,
     rtl: true,
-    autoplaySpeed: -1000,
   };
 
   return (
