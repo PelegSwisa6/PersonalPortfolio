@@ -7,6 +7,11 @@ const ResponsiveCard = styled(Card)`
   width: 40vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+  @media (max-width: 1200px) {
+    height: 90vh;
+    width: 50vh;
+  }
+
   @media (max-width: 767px) {
     height: 50vh;
     width: 35vh;

@@ -19,7 +19,7 @@ import vmsImage from "../images/vms.png";
 import vscodeImage from "../images/vscode-image.jpg";
 import pyImage from "../images/pycharm-image.png";
 import eclipseImage from "../images/eclipse-image.png";
-import mySQLImage from "../images/MySQL.avif";
+import mySQLImage from "../images/MySQL.png";
 import mongoImage from "../images/mongo-imagepng.png";
 
 const Skills = () => {
