@@ -21,6 +21,7 @@ import pyImage from "../images/pycharm-image.png";
 import eclipseImage from "../images/eclipse-image.png";
 import mySQLImage from "../images/MySQL.png";
 import mongoImage from "../images/mongo-imagepng.png";
+import dockerImage from "../images/Docker-image.png";
 
 const Skills = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
@@ -58,6 +59,7 @@ const Skills = () => {
     { title: "VS Code", image: vscodeImage },
     { title: "PyCharm", image: pyImage },
     { title: "Eclipse", image: eclipseImage },
+    { title: "Docker", image: dockerImage },
   ];
 
   const animatedProps = useSpring({
